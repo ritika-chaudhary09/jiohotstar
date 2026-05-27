@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monika Devi</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo"><i class="fa-solid fa-book-open-reader" style="margin-right: 8px;"></i>Monika
+        Devi</a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div style="display: flex; gap: 1rem; align-items: center;">
+        <div style="position: relative; display: flex; align-items: center;">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Pick Theme Color">
+            <i class="fa-solid fa-palette"></i>
+          </button>
+          <div class="color-options" id="color-options">
+            <!-- Colors are dynamically injected here from script.js -->
+          </div>
+        </div>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content reveal">
+          <span class="hero-tagline"><i class="fa-solid fa-graduation-cap" style="margin-right: 8px;"></i> Educator &
+            Administrator</span>
+          <h1 class="hero-title">Monika Devi</h1>
+          <p class="hero-contact" style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1rem;">
+            <i class="fa-solid fa-phone" style="margin-right: 5px;"></i> 
+            <span style="margin: 0 0.5rem;">|</span>
+            <i class="fa-solid fa-envelope" style="margin-right: 5px;"></i> 
+          </p>
+          <p class="hero-description">
+            Dedicated educator with experience in Computer Science teaching, student support, and office administration.
+            Skilled in communication, classroom management, client interaction, and administrative coordination.
+            Currently working as a Computer Science Teacher while strengthening administrative and communication skills.
+          </p>
+          <div class="hero-buttons">
+            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            <a href="" download class="btn btn-outline">Download Resume <i class="fa-solid fa-download"
+                style="margin-left: 8px;"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teaching Philosophy Section -->
+    <section class="philosophy" style="background-color: var(--card-bg);">
+      <div class="container">
+        <h2 class="reveal">My Teaching Philosophy</h2>
+        <div class="skills-grid" style="grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));">
+
+          <div class="skill-category reveal">
+            <div style="font-size: 2rem; color: var(--accent-color); margin-bottom: 1rem;">
+              <i class="fa-solid fa-users-viewfinder"></i>
+            </div>
+            <h3>Student-Centric Learning</h3>
+            <p style="margin-bottom: 0;">I adapt my teaching style to meet the diverse needs of every classroom,
+              ensuring complex coding concepts are accessible and engaging.</p>
+          </div>
+
+          <div class="skill-category reveal" style="transition-delay: 0.1s;">
+            <div style="font-size: 2rem; color: var(--accent-color); margin-bottom: 1rem;">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3>Practical Application</h3>
+            <p style="margin-bottom: 0;">Computer Science is best learned by doing. I integrate hands-on projects and
+              real-world problem-solving into every curriculum.</p>
+          </div>
+
+          <div class="skill-category reveal" style="transition-delay: 0.2s;">
+            <div style="font-size: 2rem; color: var(--accent-color); margin-bottom: 1rem;">
+              <i class="fa-solid fa-sitemap"></i>
+            </div>
+            <h3>Efficient Administration</h3>
+            <p style="margin-bottom: 0;">A well-organized educational environment is key to student success. I apply
+              technical tools to streamline school operations and records.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <div class="container">
+        <h2 class="reveal">Teaching & Technical Arsenal</h2>
+        <div class="skills-grid">
+
+          <!-- Technical Skills -->
+          <div class="skill-category reveal">
+            <h3><i class="fa-solid fa-computer" style="color: var(--accent-color); margin-right: 10px;"></i> Technical
+              Skills</h3>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>MS Office (Word, Excel, PPT)</span>
+                <span>95%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="95%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Tally</span>
+                <span>85%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Basic Programming</span>
+                <span>80%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Canva for Education</span>
+                <span>90%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>ChatGPT / EdTech Tools</span>
+                <span>90%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="90%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-category reveal" style="transition-delay: 0.2s;">
+            <h3><i class="fa-solid fa-comments" style="color: var(--accent-color); margin-right: 10px;"></i> Educator
+              Soft Skills</h3>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Classroom Communication</span>
+                <span>95%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="95%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Public Speaking / Lecturing</span>
+                <span>90%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Student Problem Solving</span>
+                <span>85%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="85%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal" style="transition-delay: 0.2s;">
+            <h3><i class="fa-solid fa-comments" style="color: var(--accent-color); margin-right: 10px;"></i> Educator
+              Soft Skills</h3>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Classroom Communication</span>
+                <span>95%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="95%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Public Speaking / Lecturing</span>
+                <span>10%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="10%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Student Problem Solving</span>
+                <span>85%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-width="85%"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" style="background-color: var(--card-bg);">
+      <div class="container">
+        <h2 class="reveal">Educational Experience</h2>
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Sep 2025 – Present</div>
+              <h3 class="timeline-title">Air Asia Travel Consultancy</h3>
+              <p class="timeline-subtitle"><i class="fa-solid fa-plane" style="margin-right: 5px;"></i> Travel Agent
+                Assistant</p>
+              <ul style="margin-top: 10px; padding-left: 20px;">
+                <li>Assisted clients with travel bookings and inquiries</li>
+                <li>Managed customer communication and support</li>
+                <li>Handled documentation and scheduling tasks</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">June 2025 – Present</div>
+              <h3 class="timeline-title">Anuca Ventures</h3>
+              <p class="timeline-subtitle"><i class="fa-solid fa-chalkboard-user" style="margin-right: 5px;"></i>
+                Computer Science Teacher</p>
+              <ul style="margin-top: 10px; padding-left: 20px;">
+                <li>Teaching Computer Applications and foundational computer skills</li>
+                <li>Preparing and delivering engaging classroom instruction</li>
+                <li>Guiding students for academic growth</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">April 2024 – June 2025</div>
+              <h3 class="timeline-title">Best Learning Solutions & Universal Manpower Solutions</h3>
+              <p class="timeline-subtitle"><i class="fa-solid fa-user-tie" style="margin-right: 5px;"></i> Computer
+                Science Teacher & Administrative Support</p>
+              <ul style="margin-top: 10px; padding-left: 20px;">
+                <li>Managed class schedules, student records, and digital tools</li>
+                <li>Communicated with parents and addressed student queries</li>
+                <li>Handled client queries and customer interactions</li>
+                <li>Managed documentation, reporting, and office tasks</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+      <div class="container">
+        <h2 class="reveal">Academic Background</h2>
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2021 – 2024</div>
+              <h3 class="timeline-title">Bachelor of Science (B.Sc. - Non-Medical)</h3>
+              <p class="timeline-subtitle"><i class="fa-solid fa-microscope" style="margin-right: 5px;"></i> ***********</p>
+              <p style="margin-top: 10px;"><strong>Subjects:</strong> Physics, Mathematics, Computer Science</p>
+              <p>Built a strong foundation in analytical thinking, programming, and mathematical problem-solving which
+                now informs my teaching methods.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2020 – 2021</div>
+              <h3 class="timeline-title">Senior Secondary (12th - Non-Medical)</h3>
+              <p class="timeline-subtitle"><i class="fa-solid fa-school" style="margin-right: 5px;"></i>*********</p>
+              <p style="margin-top: 10px;"><strong>Result:</strong> 80%</p>
+              <p>Focused on core science subjects, developing a passion for technology and lifelong learning.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <p>&copy; 2026 Monika Devi. Educator & Administrator. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
